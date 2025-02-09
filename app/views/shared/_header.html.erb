@@ -1,0 +1,23 @@
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap" rel="stylesheet">
+
+<nav class="navbar fixed-top navbar-desktop">
+  <div class="container">
+    <ul class="header">
+      <li class="site-name">
+        <%= link_to('EVPlugBox', {controller: 'main' , action: 'index'}) %>
+      </li>
+      <li class="nav-item">
+        <%= link_to('Home', {controller: 'main' , action: 'index'}) %>
+      </li>
+      <li class="nav-item">
+        <%= link_to('Technology', {controller: 'main' , action: 'tech'}) %>
+      </li>
+      <li class="nav-item">
+        <%= link_to('Who We Are', {controller: 'main' , action: 'about'}) %>
+      </li>
+      <li class="contact-item">
+        <%= link_to('Contact', {controller: 'contact' , action: 'index'}) %>
+      </li>
+    </ul>
+  </div>
+</nav>

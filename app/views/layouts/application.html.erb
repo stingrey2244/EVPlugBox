@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Evplugbox</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  </head>
+
+  <body>
+      <%= render "shared/header" unless @disable_header %>
+      <%= content_for(:content) ? yield(:content) : yield %>
+      <%= render "shared/footer" unless @disable_footer %>
+  </body>
+</html>
