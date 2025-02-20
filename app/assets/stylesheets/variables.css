@@ -1,6 +1,10 @@
 
 :root {
-    --title-font: Verdana, sans-serif;
+    --title-font: Manrope, serif;
 
     --black-color: #160919;
+    --light-black: #353535;
+    --btn-radius:  0.3rem;
+    --widget-radius: 0.5rem;
+    --btn-thickness: 2px;
 }

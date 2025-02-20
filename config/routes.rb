@@ -7,7 +7,6 @@ Rails.application.routes.draw do
 
   get 'main/index'
   get 'main/about'
-  get 'main/tech'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
