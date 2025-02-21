@@ -1,0 +1,32 @@
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#f3f7f2;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-text {
+
+}
+
+.footer-nav {
+    text-align: right;
+}
+
+.footer-nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+    font-family: var(--title-font), serif;
+    font-size: 18px;
+    font-weight: 400;
+}

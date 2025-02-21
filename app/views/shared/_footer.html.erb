@@ -1,0 +1,23 @@
+<footer class="footer">
+  <div class="footer-left">
+    <%= link_to root_path do %>
+      <img src="<%= asset_path('logo.png') %>" style="width:100px; margin-right:10px;">
+    <% end %>
+    <div class="footer-text">
+      <div class="section-heading-h2">
+          EvPlugBox
+        </div>
+        <div class="section-heading-h5">
+        Cheap, convenient, and reliable EV charging for multifamily residents
+          </div>
+  </div>
+  </div>
+
+  <nav class="footer-nav">
+    <a href class="nav-item"><%= link_to('Home', {controller: 'main' , action: 'index'}) %></a>
+    <a href class="nav-item"><%= link_to('Who We Are', {controller: 'main' , action: 'about'}) %></a>
+    <a href class="nav-item"><%= link_to('Contact', 'https://forms.gle/M93TsGzZf3HAem288') %></a>
+  </nav>
+
+
+</footer>

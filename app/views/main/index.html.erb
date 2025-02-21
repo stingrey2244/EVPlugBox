@@ -1,15 +1,49 @@
-  <div class="site-container">
-      <div class="section-heading">
+<div id="site-container">
+<div class="section-heading">
         Free EV charging installation for apartments & condos
       </div>
       <div class="section-heading-h3">
         No ongoing fees, maintenance or operational costs!
       </div>
+  <br>
+  <br>
+  <div class="border-box">
       <div class="section-heading-h2">
         Are you an apartment manager or condo HOA in one of these cities?
       </div>
-      <div class="section-heading">
-      EV PlugBox  provides inexpensive, convenient, reliable and safe electric vehicle (EV) charging for apartments and condos via a low-cost, low-tech solution.
-        <%= link_to('Contact Us', {controller: 'contact' , action: 'index'}, class:"contact-btn") %>
-      </div>
+  <div class="bullet-columns">
+    <ul>
+      <li>Gilroy</li>
+      <li>Los Altos</li>
+      <li>Los Altos Hills</li>
+      <li>Los Gatos</li>
+
+    </ul>
+    <ul>
+      <li>Milpitas</li>
+      <li>Monte Sereno</li>
+      <li>Morgan Hill</li>
+    </ul>
+    <ul>
+      <li>Mountain View</li>
+      <li>Saratoga</li>
+      <li>Sunnyvale</li>
+    </ul>
+  </div>
+    <div class="section-heading-h3">
+      <br>
+      ... or in an unincorporated community in Santa Clara County?</div>
+  </div>
+  <br>
+
+  <br><br>
+  <div class="content-container">
+    <%= image_tag('charging_pic.jpg', alt: 'EV Charging', class: 'responsive-img charging-img') %>
+
+    <div class="section-heading-h2">
+      EV PlugBox provides inexpensive, convenient, reliable, and safe electric vehicle (EV) charging for apartments and condos via a low-cost, low-tech solution. <br><br>
+      <%= link_to('Contact Us', 'https://forms.gle/M93TsGzZf3HAem288', class: "contact-btn") %>
     </div>
+  </div>
+
+</div>

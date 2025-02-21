@@ -1,9 +1,11 @@
 .navbar {
+    background-color:#f3f7f2;
     font-family: var(--title-font), serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
+    margin-bottom: 40px;
 }
 
 .container {
